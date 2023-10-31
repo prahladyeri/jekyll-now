@@ -18,16 +18,16 @@ avatar: https://prahladyeri.github.io/uploads/prahlad_yeri_170p.webp
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: prahladyeri@yahoo.com
   facebook:
   flickr:
-  github: prahladyeri/prahladyeri.github.io
-  instagram:
-  linkedin:
+  github: prahladyeri
+  instagram: prahladyeri14
+  linkedin: in/prahlad-yeri-243a5316
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: test # just type anything here for a working RSS icon
   twitter: prahladyeri
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: "users/849365/prahlad-yeri" # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -42,6 +42,7 @@ google_analytics:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url:
+https://prahladyeri.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
