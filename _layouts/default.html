@@ -11,15 +11,26 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+	<link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}images/py.webp" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+<!-- todo: uncomment these: -->
+	<!-- fosstodon verify -->
+	<!-- <a style='display:none'  rel="me" href="https://fosstodon.org/@prahladyeri">Fosstodon</a> -->
+	
+	<!-- mastodon verify -->
+	<!-- <a style='display:none' rel="me" href="https://mastodon.social/@prahladyeri">Mastodon</a>	 -->
+
+	<!-- pinterest verify -->
+	<!-- <meta name="p:domain_verify" content="a57360faef2ee56807b63d62092a849a"/> -->
+	
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
@@ -28,6 +39,7 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/projects">Projects</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
